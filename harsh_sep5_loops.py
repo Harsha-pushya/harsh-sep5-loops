@@ -15,11 +15,9 @@ for index,value in enumerate(students):
         count_absent[index]=c1
        
 
-    if count_absent[index]>=3:
-       
+    if count_absent[index]>=3: 
         status.append("NEEDS INTREVENTION")
     else:
-
         status.append("ok")
 for index,value in enumerate(students):
     print("")
